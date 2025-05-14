@@ -8,7 +8,7 @@ function App() {
     <>
       <MyNav brandName="Ciccio pasty"></MyNav>
       <Welcome alertColor="info" alertContent="Ciaooooo!" textContent="Come stai?" />
-      <Welcome alertColor="success" />
+
       <Footer />
     </>
   );
