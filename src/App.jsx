@@ -7,8 +7,9 @@ function App() {
   return (
     <>
       <MyNav brandName="Ciccio pasty"></MyNav>
-      <Welcome />
-      <Footer alertColor="success" />
+      <Welcome alertColor="info" alertContent="Ciaooooo!" textContent="Come stai?" />
+      <Welcome alertColor="success" />
+      <Footer />
     </>
   );
 }

@@ -1,10 +1,11 @@
 import { Alert, Container } from "react-bootstrap";
 
-function Welcome(props) {
+function Welcome({ alertColor = "info", alertContent = "Welcome", textContent }) {
   return (
     <>
       <Container>
-        <Alert variant={props.alertColor}>Yayy</Alert>
+        <Alert variant={alertColor}> {alertContent}</Alert>
+        <p> {textContent}</p>
       </Container>
     </>
   );
