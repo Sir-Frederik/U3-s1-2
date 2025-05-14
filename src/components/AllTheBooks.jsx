@@ -7,7 +7,7 @@ function AllTheBooks() {
   return (
     <Container>
       <h2> Libri Disponibili </h2>
-      <Row>
+      <Row xs={1} sm={2} md={3} lg={4} xxl={6}>
         {scifi.map((book) => (
           <Col key={book.asin}>
             <Card style={{ width: "18rem" }}>
