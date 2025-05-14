@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import scifi from "../data/scifi.json";
+import fantasy from "../data/fantasy.json";
 import { Col, Container, Row } from "react-bootstrap";
 
 function AllTheBooks() {
@@ -8,7 +9,7 @@ function AllTheBooks() {
     <Container>
       <h2> Libri Disponibili </h2>
       <Row xs={1} sm={2} md={3} lg={4} xxl={6}>
-        {scifi.map((book) => (
+        {fantasy.map((book) => (
           <Col key={book.asin}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={book.img} />
